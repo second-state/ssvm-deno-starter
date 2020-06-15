@@ -20,11 +20,13 @@ jobs:
         export DENO_INSTALL="$HOME/.deno"
         export PATH="$DENO_INSTALL/bin:$PATH"
         curl https://raw.githubusercontent.com/second-state/ssvmup/master/installer/init.sh -sSf | sh
+        echo $PATH
     
     - name: Build
       run: ssvmup build --target deno
       
     - name: Test
       run: |
+        echo $PATH
         deno run --allow-read deno/test.js
         ssvmup clean

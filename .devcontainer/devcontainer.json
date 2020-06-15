@@ -12,9 +12,7 @@
 	"extensions": [
 		"rust-lang.rust",
 		"bungcip.better-toml",
-		"vadimcn.vscode-lldb",
-		"loiane.ts-extension-pack",
-		"dbaeumer.vscode-eslint"
+		"loiane.ts-extension-pack"
 	],
 
 	"forwardPorts": [8000]

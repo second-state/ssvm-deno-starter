@@ -24,7 +24,5 @@ jobs:
       
     - name: Test
       run: |
-        cd deno/
-        $HOME/.deno/bin/deno run --allow-read test.ts
-        cd ../
+        $HOME/.deno/bin/deno run --allow-read deno/test.ts
         ssvmup clean

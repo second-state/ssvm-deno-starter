@@ -1,12 +1,5 @@
 {
-    "eslint.workingDirectories": [
-        {
-            "directory": "./deno",
-            "changeProcessCWD": true
-        }
-    ],
     "search.exclude": {
         "**/target": true
-    },
-    "lldb.verboseLogging": true
+    }
 }

@@ -24,7 +24,7 @@ jobs:
       
     - name: Test
       run: |
-        export DENO_INSTALL="$HOME/.deno"
-        export PATH="$DENO_INSTALL/bin:$PATH"
-        deno run --allow-read deno/test.js
+        cd deno/
+        $HOME/.deno/bin/deno run --allow-read test.js
+        cd ../
         ssvmup clean

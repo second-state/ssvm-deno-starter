@@ -1,3 +1,11 @@
+![Build and test](https://github.com/second-state/ssvm-deno-starter/workflows/Build%20and%20test/badge.svg)
+
+<p>
+    <a href="https://online.visualstudio.com/environments/new?name=Rust%20and%20WebAssembly%20in%20Deno&repo=second-state/ssvm-deno-starter">
+        <img src="https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge">
+    </a>
+</p>
+
 ## Prerequisites
 
 [Install Deno](https://deno.land/manual/getting_started/installation)

@@ -12,7 +12,7 @@
 	"extensions": [
 		"rust-lang.rust",
 		"bungcip.better-toml",
-		"loiane.ts-extension-pack"
+		"denoland.vscode-deno"
 	],
 
 	"forwardPorts": [8000]

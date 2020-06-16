@@ -1,4 +1,5 @@
 {
+    "deno.enable": true,
     "search.exclude": {
         "**/target": true
     }

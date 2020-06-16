@@ -6,6 +6,8 @@
     </a>
 </p>
 
+![Demo](https://raw.githubusercontent.com/second-state/ssvm-deno-starter/master/docs/img/SSVM-rust-deno.gif)
+
 ## Prerequisites
 
 [Install Deno](https://deno.land/manual/getting_started/installation)

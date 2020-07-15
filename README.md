@@ -16,6 +16,8 @@
 
 ## Setup
 
+The command below installs the [ssvmup tooling](https://www.secondstate.io/articles/ssvmup/).
+
 ```
 $ curl https://raw.githubusercontent.com/second-state/ssvmup/master/installer/init.sh -sSf | sh
 ```

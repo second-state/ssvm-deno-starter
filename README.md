@@ -40,6 +40,13 @@ $ ssvmup build --target deno
 $ deno run --allow-read deno/test.ts
 ```
 
+If you encounter an error here, most likely your Deno install and cached library files are out of sync. Do the following to upgrade Deno to the latest version and then reload the cache.
+
+```
+$ deno upgrade
+$ cache --reload deno/test.ts
+```
+
 ## Run
 
 ```

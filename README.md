@@ -44,7 +44,7 @@ If you encounter an error here, most likely your Deno install and cached library
 
 ```
 $ deno upgrade
-$ cache --reload deno/test.ts
+$ deno cache --reload deno/test.ts
 ```
 
 ## Run

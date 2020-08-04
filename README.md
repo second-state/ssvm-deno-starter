@@ -1,12 +1,6 @@
 ![Build and test](https://github.com/second-state/ssvm-deno-starter/workflows/Build%20and%20test/badge.svg)
 
-<p>
-    <a href="https://online.visualstudio.com/environments/new?name=Rust%20and%20WebAssembly%20in%20Deno&repo=second-state/ssvm-deno-starter">
-        <img src="https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge">
-    </a>
-</p>
-
-![Demo](https://raw.githubusercontent.com/second-state/ssvm-deno-starter/master/docs/img/SSVM-rust-deno.gif)
+Check out this tutorial article: *[Deno Apps with WebAssembly, Rust, and WASI](https://www.secondstate.io/articles/deno-webassembly-rust-wasi/)*
 
 ## Prerequisites
 
@@ -59,3 +53,10 @@ $ deno run --allow-read --allow-net --allow-env --unstable deno/server.ts
 $ curl http://localhost:8000/
 hello  World
 ```
+
+## Next steps
+
+Check out the [SSVM Deno repository for more WebAssembly examples on Deno](https://github.com/second-state/wasm-learning/tree/master/deno).
+
+Tutorial article: *[Deno Apps with WebAssembly, Rust, and WASI](https://www.secondstate.io/articles/deno-webassembly-rust-wasi/)*
+
